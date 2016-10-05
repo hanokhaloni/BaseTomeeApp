@@ -1,0 +1,21 @@
+- one click project build
+	- code skeleton
+	- directory structure
+- manual updates...
+- generate an object-model
+	- VO (sql)
+	- DTO (json schema)
+	- T(VO->DTO / DTO->VO)
+- tests infrastructure
+	- units
+	- integration
+	- e2e
+- application server skeleton
+	- hardened/more secure
+	- logs
+	- configuration
+	- shared libs
+	- login
+	- DB / Datasource
+	- ejb
+- build system

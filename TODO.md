@@ -1,6 +1,7 @@
 - one click project build
 	- code skeleton
 	- directory structure
+	- general naming (no related to specific customer)
 - manual updates...
 - generate an object-model
 	- VO (sql)
@@ -19,4 +20,5 @@
 	- DB / Datasource
 	- ejb
 - build system
-- 
+	- version of build visible as service / on webpage
+	- gradle version

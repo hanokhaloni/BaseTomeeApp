@@ -1,24 +1,25 @@
-- one click project build
-	- code skeleton
-	- directory structure
-	- general naming (no related to specific customer)
-- manual updates...
-- generate an object-model
-	- VO (sql)
-	- DTO (json schema)
-	- T(VO->DTO / DTO->VO)
-- tests infrastructure
-	- units
-	- integration
-	- e2e
-- application server skeleton
-	- hardened/more secure
-	- logs
-	- configuration
-	- shared libs
-	- login
-	- DB / Datasource
-	- ejb
-- build system
-	- version of build visible as service / on webpage
-	- gradle version
+- [ ] one click project build
+	- [ ] code skeleton
+	- [ ] directory structure
+	- [ ]general naming (no related to specific customer)
+- [ ] manual updates...
+- [ ] generate an object-model
+	- [ ] VO (sql)
+	- [ ] DTO (json schema)
+	- [ ] T(VO->DTO / DTO->VO)
+- [ ] tests infrastructure
+	- [ ] units
+	- [ ] integration
+	- [ ] e2e
+- [ ] application server skeleton
+	- [ ] hardened/more secure - TBD
+	- [ ] logs - as external logs @ TTFCC format.
+	- [ ] configuration
+	- [ ] shared libs
+	- [ ] login
+	- [ ] DB / Datasource
+	- [ ] ejb
+	- [ ] CDI 
+- [ ] build system
+	- [ ] version of build visible as service / on webpage
+	- [ ] gradle version

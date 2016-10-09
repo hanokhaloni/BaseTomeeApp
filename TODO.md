@@ -1,7 +1,7 @@
 - [ ] one click project build
 	- [ ] code skeleton
 	- [ ] directory structure
-	- [ ]general naming (no related to specific customer)
+	- [ ] general naming (no related to specific customer)
 - [ ] manual updates...
 - [ ] generate an object-model
 	- [ ] VO (sql)

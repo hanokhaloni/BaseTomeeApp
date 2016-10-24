@@ -22,4 +22,6 @@
 	- [ ] CDI 
 - [ ] build system
 	- [ ] version of build visible as service / on webpage
-	- [ ] gradle version
+	- [ ] gradle version or maven?
+	- [ ] compile time should be minimal
+	- [ ] Should also handle GULP or GRUNT (or even webpack) commands

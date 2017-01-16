@@ -1,6 +1,10 @@
 import groovy.sql.Sql
 import org.apache.tools.ant.filters.ReplaceTokens
 
+group = 'com.ngsoft'
+version = '0.0.0'
+description = 'ngsoft.BaseTomeeApp'
+
 defaultTasks 'cleanup', 'prepareConfig', 'deployConfig', 'build', 'uploadArchives', 'deploy', 'jacocoTestReport'
 
 def String dMode = hasProperty('deployMode') ? deployMode : hasProperty('fallbackDeployMode') ? fallbackDeployMode : "test"
@@ -51,8 +55,6 @@ subprojects {
 
     sourceCompatibility = 1.7
     targetCompatibility = 1.7
-
-    version = '1.0'
 
     repositories {
         mavenCentral()

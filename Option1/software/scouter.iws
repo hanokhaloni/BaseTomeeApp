@@ -1,0 +1,1114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" readonly="true" id="304d816d-5de3-4203-bd7e-4d3190d52a8f" name="Default" comment="">
+      <change type="DELETED" beforePath="C:\Users\Erez.Guy\Desktop\Option1\trunk\software\modules\backoffice\web\bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Erez.Guy\Desktop\Option1\trunk\software\modules\backoffice\web\ipsGui.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Erez.Guy\Desktop\Option1\trunk\software\modules\backoffice\web\jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Erez.Guy\Desktop\Option1\trunk\software\modules\backoffice\web\test.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Erez.Guy\Desktop\Option1\trunk\software\modules\build\db\1-scouter-schema.sql" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Erez.Guy\Desktop\Option1\trunk\software\modules\build\db\2-scouter-init-data.sql" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Erez.Guy\Desktop\Option1\trunk\software\modules\build\environment-tasks\ResetDatabaseFromScripts.bat" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Erez.Guy\Desktop\Option1\trunk\software\modules\scouter\scouter-dao\src\com\scouter\dao\AlertDao.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Erez.Guy\Desktop\Option1\trunk\software\modules\scouter\scouter-dao\src\com\scouter\dao\AlertDaoImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Erez.Guy\Desktop\Option1\trunk\software\modules\scouter\scouter-dao\src\com\scouter\dao\ClientDao.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Erez.Guy\Desktop\Option1\trunk\software\modules\scouter\scouter-dao\src\com\scouter\dao\ClientDaoImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Erez.Guy\Desktop\Option1\trunk\software\modules\scouter\scouter-dao\src\com\scouter\dao\DistributionListDao.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Erez.Guy\Desktop\Option1\trunk\software\modules\scouter\scouter-dao\src\com\scouter\dao\DistributionListDaoImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Erez.Guy\Desktop\Option1\trunk\software\modules\scouter\scouter-dao\src\com\scouter\dao\IpsDao.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Erez.Guy\Desktop\Option1\trunk\software\modules\scouter\scouter-dao\src\com\scouter\dao\IpsDaoImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Erez.Guy\Desktop\Option1\trunk\software\modules\scouter\scouter-logic\src\com\scouter\logic\AlertLogic.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Erez.Guy\Desktop\Option1\trunk\software\modules\scouter\scouter-logic\src\com\scouter\logic\AlertLogicImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Erez.Guy\Desktop\Option1\trunk\software\modules\scouter\scouter-logic\src\com\scouter\logic\ApkCreatorWithGradleWrapper.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Erez.Guy\Desktop\Option1\trunk\software\modules\scouter\scouter-logic\src\com\scouter\logic\ClientLogic.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Erez.Guy\Desktop\Option1\trunk\software\modules\scouter\scouter-logic\src\com\scouter\logic\ClientLogicImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Erez.Guy\Desktop\Option1\trunk\software\modules\scouter\scouter-logic\src\com\scouter\logic\CommonUtils.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Erez.Guy\Desktop\Option1\trunk\software\modules\scouter\scouter-logic\src\com\scouter\logic\DistributionListLogic.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Erez.Guy\Desktop\Option1\trunk\software\modules\scouter\scouter-logic\src\com\scouter\logic\DistributionListLogicImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Erez.Guy\Desktop\Option1\trunk\software\modules\scouter\scouter-logic\src\com\scouter\logic\FfmpegWrapper.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Erez.Guy\Desktop\Option1\trunk\software\modules\scouter\scouter-logic\src\com\scouter\logic\IpsLogic.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Erez.Guy\Desktop\Option1\trunk\software\modules\scouter\scouter-logic\src\com\scouter\logic\IpsLogicImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Erez.Guy\Desktop\Option1\trunk\software\modules\scouter\scouter-logic\src\com\scouter\logic\MediaMetaData.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Erez.Guy\Desktop\Option1\trunk\software\modules\scouter\scouter-logic\src\com\scouter\logic\UserLogic.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Erez.Guy\Desktop\Option1\trunk\software\modules\scouter\scouter-logic\src\com\scouter\logic\UserLogicImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Erez.Guy\Desktop\Option1\trunk\software\modules\scouter\scouter-logic\src\com\scouter\logic\eConfigurationParams.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Erez.Guy\Desktop\Option1\trunk\software\modules\scouter\scouter-logic\test\com\scouter\logic\AlertLogicImplTest.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Erez.Guy\Desktop\Option1\trunk\software\modules\scouter\scouter-logic\test\com\scouter\logic\ClientLogicImplTest.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Erez.Guy\Desktop\Option1\trunk\software\modules\scouter\scouter-logic\test\com\scouter\logic\DistributionListLogicImplTest.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Erez.Guy\Desktop\Option1\trunk\software\modules\scouter\scouter-services\src\com\scouter\services\entrypoint\AlertService.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Erez.Guy\Desktop\Option1\trunk\software\modules\scouter\scouter-services\src\com\scouter\services\entrypoint\ClientService.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Erez.Guy\Desktop\Option1\trunk\software\modules\scouter\scouter-services\src\com\scouter\services\entrypoint\DistributionListService.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Erez.Guy\Desktop\Option1\trunk\software\modules\scouter\scouter-services\src\com\scouter\services\entrypoint\IpsService.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Erez.Guy\Desktop\Option1\trunk\software\modules\scouter\scouter-services\src\com\scouter\services\entrypoint\UserService.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Erez.Guy\Desktop\Option1\trunk\software\modules\scouter\scouter-services\src\com\scouter\services\entrypoint\impl\AlertServiceImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Erez.Guy\Desktop\Option1\trunk\software\modules\scouter\scouter-services\src\com\scouter\services\entrypoint\impl\ClientServiceImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Erez.Guy\Desktop\Option1\trunk\software\modules\scouter\scouter-services\src\com\scouter\services\entrypoint\impl\DistributionListServiceImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Erez.Guy\Desktop\Option1\trunk\software\modules\scouter\scouter-services\src\com\scouter\services\entrypoint\impl\IpsServiceImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Erez.Guy\Desktop\Option1\trunk\software\modules\scouter\scouter-services\src\com\scouter\services\entrypoint\impl\UserServiceImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Erez.Guy\Desktop\Option1\trunk\software\modules\shared\src\com\scouter\commons\appVo\AppAPKFile.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Erez.Guy\Desktop\Option1\trunk\software\modules\shared\src\com\scouter\commons\appVo\AppAlertXmlSmallData.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Erez.Guy\Desktop\Option1\trunk\software\modules\shared\src\com\scouter\commons\appVo\AppAlerts.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Erez.Guy\Desktop\Option1\trunk\software\modules\shared\src\com\scouter\commons\appVo\AppArchiveAlert.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Erez.Guy\Desktop\Option1\trunk\software\modules\shared\src\com\scouter\commons\appVo\AppArchiveAlerts.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Erez.Guy\Desktop\Option1\trunk\software\modules\shared\src\com\scouter\commons\appVo\AppByteMessages.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Erez.Guy\Desktop\Option1\trunk\software\modules\shared\src\com\scouter\commons\appVo\AppClientActionsHistory.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Erez.Guy\Desktop\Option1\trunk\software\modules\shared\src\com\scouter\commons\appVo\AppClientData.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Erez.Guy\Desktop\Option1\trunk\software\modules\shared\src\com\scouter\commons\appVo\AppClientDistributionList.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Erez.Guy\Desktop\Option1\trunk\software\modules\shared\src\com\scouter\commons\appVo\AppClientIdSmall.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Erez.Guy\Desktop\Option1\trunk\software\modules\shared\src\com\scouter\commons\appVo\AppClientUpdateDataForComparison.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Erez.Guy\Desktop\Option1\trunk\software\modules\shared\src\com\scouter\commons\appVo\AppClientUpdateDataForIps.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Erez.Guy\Desktop\Option1\trunk\software\modules\shared\src\com\scouter\commons\appVo\AppClients.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Erez.Guy\Desktop\Option1\trunk\software\modules\shared\src\com\scouter\commons\appVo\AppClientsNames.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Erez.Guy\Desktop\Option1\trunk\software\modules\shared\src\com\scouter\commons\appVo\AppCreateClients.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Erez.Guy\Desktop\Option1\trunk\software\modules\shared\src\com\scouter\commons\appVo\AppCreateDistributionList.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Erez.Guy\Desktop\Option1\trunk\software\modules\shared\src\com\scouter\commons\appVo\AppCreateIp.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Erez.Guy\Desktop\Option1\trunk\software\modules\shared\src\com\scouter\commons\appVo\AppCreateMessages.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Erez.Guy\Desktop\Option1\trunk\software\modules\shared\src\com\scouter\commons\appVo\AppDeleteClient.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Erez.Guy\Desktop\Option1\trunk\software\modules\shared\src\com\scouter\commons\appVo\AppDeleteDistList.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Erez.Guy\Desktop\Option1\trunk\software\modules\shared\src\com\scouter\commons\appVo\AppDeleteIp.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Erez.Guy\Desktop\Option1\trunk\software\modules\shared\src\com\scouter\commons\appVo\AppDistributionListClient.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Erez.Guy\Desktop\Option1\trunk\software\modules\shared\src\com\scouter\commons\appVo\AppDistributionListData.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Erez.Guy\Desktop\Option1\trunk\software\modules\shared\src\com\scouter\commons\appVo\AppDistributionListNames.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Erez.Guy\Desktop\Option1\trunk\software\modules\shared\src\com\scouter\commons\appVo\AppDistributionLists.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Erez.Guy\Desktop\Option1\trunk\software\modules\shared\src\com\scouter\commons\appVo\AppGetIps.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Erez.Guy\Desktop\Option1\trunk\software\modules\shared\src\com\scouter\commons\appVo\AppGetMessageData.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Erez.Guy\Desktop\Option1\trunk\software\modules\shared\src\com\scouter\commons\appVo\AppGetMessageDataClient.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Erez.Guy\Desktop\Option1\trunk\software\modules\shared\src\com\scouter\commons\appVo\AppGetMessageDataMedia.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Erez.Guy\Desktop\Option1\trunk\software\modules\shared\src\com\scouter\commons\appVo\AppInputStreamWithMediaPath.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Erez.Guy\Desktop\Option1\trunk\software\modules\shared\src\com\scouter\commons\appVo\AppMediaMetaData.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Erez.Guy\Desktop\Option1\trunk\software\modules\shared\src\com\scouter\commons\appVo\AppMediaSmall.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Erez.Guy\Desktop\Option1\trunk\software\modules\shared\src\com\scouter\commons\appVo\AppMediaSmallWithBytes.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Erez.Guy\Desktop\Option1\trunk\software\modules\shared\src\com\scouter\commons\appVo\AppMessage.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Erez.Guy\Desktop\Option1\trunk\software\modules\shared\src\com\scouter\commons\appVo\AppMessageExpirationTime.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Erez.Guy\Desktop\Option1\trunk\software\modules\shared\src\com\scouter\commons\appVo\AppMessageTextMetaData.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Erez.Guy\Desktop\Option1\trunk\software\modules\shared\src\com\scouter\commons\appVo\AppMessageWithClientId.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Erez.Guy\Desktop\Option1\trunk\software\modules\shared\src\com\scouter\commons\appVo\AppMsgIdsWithCounters.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Erez.Guy\Desktop\Option1\trunk\software\modules\shared\src\com\scouter\commons\appVo\AppRemoveClientFromDistributionList.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Erez.Guy\Desktop\Option1\trunk\software\modules\shared\src\com\scouter\commons\appVo\AppTextImageAndPath.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Erez.Guy\Desktop\Option1\trunk\software\modules\shared\src\com\scouter\commons\appVo\AppUpdateClient.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Erez.Guy\Desktop\Option1\trunk\software\modules\shared\src\com\scouter\commons\appVo\AppUpdateDistributionList.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Erez.Guy\Desktop\Option1\trunk\software\modules\shared\src\com\scouter\commons\appVo\AppUpdateIp.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Erez.Guy\Desktop\Option1\trunk\software\modules\shared\src\com\scouter\commons\services\AlertXMLInputHandler.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Erez.Guy\Desktop\Option1\trunk\software\modules\shared\src\com\scouter\commons\services\BaseThreadPoolHandler.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Erez.Guy\Desktop\Option1\trunk\software\modules\shared\src\com\scouter\commons\services\BasicFileOperationsHandler.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Erez.Guy\Desktop\Option1\trunk\software\modules\shared\src\com\scouter\commons\services\KeepAliveHandler.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Erez.Guy\Desktop\Option1\trunk\software\modules\shared\src\com\scouter\commons\services\MediaViewedXMLInputHandler.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Erez.Guy\Desktop\Option1\trunk\software\modules\shared\src\com\scouter\commons\services\XMLFilesHandler.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Erez.Guy\Desktop\Option1\trunk\software\modules\shared\src\com\scouter\commons\services\XmlHandler.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Erez.Guy\Desktop\Option1\trunk\software\modules\shared\src\com\scouter\commons\util\ActionHistory.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Erez.Guy\Desktop\Option1\trunk\software\modules\shared\src\com\scouter\commons\util\ObjectTransformation.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Erez.Guy\Desktop\Option1\trunk\software\modules\shared\src\com\scouter\commons\vo\Actions.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Erez.Guy\Desktop\Option1\trunk\software\modules\shared\src\com\scouter\commons\vo\AlertType.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Erez.Guy\Desktop\Option1\trunk\software\modules\shared\src\com\scouter\commons\vo\Alerts.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Erez.Guy\Desktop\Option1\trunk\software\modules\shared\src\com\scouter\commons\vo\Client.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Erez.Guy\Desktop\Option1\trunk\software\modules\shared\src\com\scouter\commons\vo\ClientInstallationStatus.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Erez.Guy\Desktop\Option1\trunk\software\modules\shared\src\com\scouter\commons\vo\CurrentMediumName.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Erez.Guy\Desktop\Option1\trunk\software\modules\shared\src\com\scouter\commons\vo\DistributionClient.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Erez.Guy\Desktop\Option1\trunk\software\modules\shared\src\com\scouter\commons\vo\DistributionLists.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Erez.Guy\Desktop\Option1\trunk\software\modules\shared\src\com\scouter\commons\vo\Ips.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Erez.Guy\Desktop\Option1\trunk\software\modules\shared\src\com\scouter\commons\vo\Media.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Erez.Guy\Desktop\Option1\trunk\software\modules\shared\src\com\scouter\commons\vo\MediaViewed.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Erez.Guy\Desktop\Option1\trunk\software\modules\shared\src\com\scouter\commons\vo\MessageClient.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Erez.Guy\Desktop\Option1\trunk\software\modules\shared\src\com\scouter\commons\xml\ConfigurationXML.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Erez.Guy\Desktop\Option1\trunk\software\modules\shared\src\com\scouter\commons\xml\CreateClientXML.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Erez.Guy\Desktop\Option1\trunk\software\modules\shared\src\com\scouter\commons\xml\DeleteClientXML.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Erez.Guy\Desktop\Option1\trunk\software\modules\shared\src\com\scouter\commons\xml\ExpirationTimeXML.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Erez.Guy\Desktop\Option1\trunk\software\modules\shared\src\com\scouter\commons\xml\KeepAliveXML.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Erez.Guy\Desktop\Option1\trunk\software\modules\shared\src\com\scouter\commons\xml\MessageXML.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Erez.Guy\Desktop\Option1\trunk\software\modules\shared\src\com\scouter\commons\xml\RemoveXML.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Erez.Guy\Desktop\Option1\trunk\software\modules\shared\src\com\scouter\commons\xml\ResetXML.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Erez.Guy\Desktop\Option1\trunk\software\modules\shared\src\com\scouter\commons\xml\UpgradeXML.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Erez.Guy\Desktop\Option1\trunk\software\modules\shared\src\com\scouter\commons\xml\absScouterXML.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Erez.Guy\Desktop\Option1\trunk\software\modules\backoffice\web\glyphicons-halflings-regular.woff" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Erez.Guy\Desktop\Option1\trunk\software\modules\shared\src\com\scouter\commons\xml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/shared/src/com/scouter/commons/ConstantsShared.java" afterPath="$PROJECT_DIR$/modules/shared/src/com/scouter/commons/ConstantsShared.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/scouter/scouter-dao/src/com/scouter/dao/MessagesDao.java" afterPath="$PROJECT_DIR$/modules/scouter/scouter-dao/src/com/scouter/dao/MessagesDao.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/scouter/scouter-dao/src/com/scouter/dao/MessagesDaoImpl.java" afterPath="$PROJECT_DIR$/modules/scouter/scouter-dao/src/com/scouter/dao/MessagesDaoImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/scouter/scouter-logic/src/com/scouter/logic/MessagesLogic.java" afterPath="$PROJECT_DIR$/modules/scouter/scouter-logic/src/com/scouter/logic/MessagesLogic.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/scouter/scouter-logic/src/com/scouter/logic/MessagesLogicImpl.java" afterPath="$PROJECT_DIR$/modules/scouter/scouter-logic/src/com/scouter/logic/MessagesLogicImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/scouter/scouter-logic/test/com/scouter/logic/MessagesLogicImplTest.java" afterPath="$PROJECT_DIR$/modules/scouter/scouter-logic/test/com/scouter/logic/MessagesLogicImplTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/scouter/scouter-services/src/com/scouter/services/entrypoint/MessagesService.java" afterPath="$PROJECT_DIR$/modules/scouter/scouter-services/src/com/scouter/services/entrypoint/MessagesService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/scouter/scouter-services/src/com/scouter/services/entrypoint/impl/MessagesServiceImpl.java" afterPath="$PROJECT_DIR$/modules/scouter/scouter-services/src/com/scouter/services/entrypoint/impl/MessagesServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/scouter/scouter-services/src/com/scouter/services/RestProtocol.java" afterPath="$PROJECT_DIR$/modules/scouter/scouter-services/src/com/scouter/services/RestProtocol.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/shared/src/com/scouter/commons/util/ScouterLogger.java" afterPath="$PROJECT_DIR$/modules/shared/src/com/scouter/commons/util/ScouterLogger.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/build/gradle/server/build.gradle" afterPath="$PROJECT_DIR$/modules/build/gradle/server/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/scouter/scouter-dao/scouter-dao.iml" afterPath="$PROJECT_DIR$/modules/scouter/scouter-dao/scouter-dao.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/scouter/scouter-logic/scouter-logic.iml" afterPath="$PROJECT_DIR$/modules/scouter/scouter-logic/scouter-logic.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scouter.ipr" afterPath="$PROJECT_DIR$/scouter.ipr" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/build/gradle/server/settings.gradle" afterPath="$PROJECT_DIR$/modules/build/gradle/server/settings.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/scouter/scouter-services/web/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/modules/scouter/scouter-services/web/WEB-INF/web.xml" />
+    </list>
+    <ignored path="scouter.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path="$PROJECT_DIR$/modules/scouter/build/" />
+    <ignored path="$PROJECT_DIR$/modules/scouter/scouter-commons/build/" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/modules/scouter/scouter-dao/build/" />
+    <ignored path="$PROJECT_DIR$/modules/scouter/scouter-logic/build/" />
+    <ignored path="$PROJECT_DIR$/modules/scouter/scouter-services/build/" />
+    <ignored path="$PROJECT_DIR$/modules/shared/build/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="scouter" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="web.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/modules/scouter/scouter-services/web/WEB-INF/web.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-10.551724">
+              <caret line="18" column="25" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MessagesService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/modules/scouter/scouter-services/src/com/scouter/services/entrypoint/MessagesService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MessagesServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/modules/scouter/scouter-services/src/com/scouter/services/entrypoint/impl/MessagesServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MessagesLogicImplTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/modules/scouter/scouter-logic/test/com/scouter/logic/MessagesLogicImplTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.07816092">
+              <caret line="4" column="32" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MessagesLogic.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/modules/scouter/scouter-logic/src/com/scouter/logic/MessagesLogic.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MessagesLogicImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/modules/scouter/scouter-logic/src/com/scouter/logic/MessagesLogicImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-1.36">
+              <caret line="2" column="5" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MessagesDao.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/modules/scouter/scouter-dao/src/com/scouter/dao/MessagesDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="4" column="38" selection-start-line="4" selection-start-column="38" selection-end-line="4" selection-end-column="38" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MessagesDaoImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/modules/scouter/scouter-dao/src/com/scouter/dao/MessagesDaoImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="beans.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/modules/shared/src/META-INF/beans.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="persistence.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/modules/shared/src/META-INF/persistence.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="15" column="41" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CommonUtils.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/modules/shared/src/com/scouter/commons/util/CommonUtils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AppGetMessages.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/modules/shared/src/com/scouter/commons/appVo/AppGetMessages.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GsonProvider.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/modules/shared/src/com/scouter/commons/util/GsonProvider.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="31" column="13" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JvmParams.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/modules/shared/src/com/scouter/commons/util/JvmParams.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Messages.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/modules/shared/src/com/scouter/commons/vo/Messages.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="APIBase.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/modules/shared/src/com/scouter/commons/services/APIBase.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ScouterLogger.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/modules/shared/src/com/scouter/commons/util/ScouterLogger.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ConstantsShared.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/modules/shared/src/com/scouter/commons/ConstantsShared.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GenericException.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/modules/shared/src/com/scouter/commons/GenericException.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ExceptionHandler.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/modules/shared/src/com/scouter/commons/services/ExceptionHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="15" column="96" selection-start-line="15" selection-start-column="96" selection-end-line="15" selection-end-column="96" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ServicesContextListener.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/modules/shared/src/com/scouter/commons/services/ServicesContextListener.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Issues.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/modules/scouter/scouter-logic/etc/conf/Issues.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Scouter.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/modules/scouter/scouter-logic/etc/conf/Scouter.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RestProtocol.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/modules/scouter/scouter-services/src/com/scouter/services/RestProtocol.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/modules/build/gradle/server/settings.gradle" />
+        <option value="$PROJECT_DIR$/modules/build/gradle/server/build.gradle" />
+        <option value="$PROJECT_DIR$/modules/scouter/scouter-logic/src/com/scouter/logic/ClientLogicImpl.java" />
+        <option value="$PROJECT_DIR$/modules/scouter/scouter-services/web/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/modules/scouter/scouter-services/src/com/scouter/services/entrypoint/MessagesService.java" />
+        <option value="$PROJECT_DIR$/modules/scouter/scouter-services/src/com/scouter/services/entrypoint/impl/MessagesServiceImpl.java" />
+        <option value="$PROJECT_DIR$/modules/scouter/scouter-logic/src/com/scouter/logic/MessagesLogic.java" />
+        <option value="$PROJECT_DIR$/modules/scouter/scouter-services/src/com/scouter/services/RestProtocol.java" />
+        <option value="$PROJECT_DIR$/modules/scouter/scouter-logic/test/com/scouter/logic/MessagesLogicImplTest.java" />
+        <option value="$PROJECT_DIR$/modules/scouter/scouter-logic/src/com/scouter/logic/MessagesLogicImpl.java" />
+        <option value="$PROJECT_DIR$/modules/scouter/scouter-dao/src/com/scouter/dao/MessagesDao.java" />
+        <option value="$PROJECT_DIR$/modules/scouter/scouter-dao/src/com/scouter/dao/MessagesDaoImpl.java" />
+        <option value="$PROJECT_DIR$/modules/shared/src/com/scouter/commons/util/ScouterLogger.java" />
+        <option value="$PROJECT_DIR$/modules/shared/src/com/scouter/commons/ConstantsShared.java" />
+      </list>
+    </option>
+  </component>
+  <component name="NamedScopeManager">
+    <order />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scouter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scouter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="JarApplication" factoryName="JAR Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration name="&lt;template&gt;" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" default="true" selected="false">
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" cleanupOnStartRun="true">
+    <configuration>C:\Users\Erez.Guy\AppData\Roaming\Subversion</configuration>
+    <supportedVersion>125</supportedVersion>
+  </component>
+  <component name="SvnFileUrlMappingImpl">
+    <option name="myMappingRoots">
+      <list>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="C:\Users\Erez.Guy\Desktop\Option1\trunk\software" />
+          <option name="myCopyRoot" value="C:\Users\Erez.Guy\Desktop\Option1\trunk\software" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="C:\Users\Erez.Guy\Desktop\Option1\trunk\software\modules" />
+          <option name="myCopyRoot" value="C:\Users\Erez.Guy\Desktop\Option1\trunk\software\modules" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="C:\Users\Erez.Guy\Desktop\Option1\trunk\software\modules\network" />
+          <option name="myCopyRoot" value="C:\Users\Erez.Guy\Desktop\Option1\trunk\software\modules\network" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="C:\Users\Erez.Guy\Desktop\Option1\trunk\software\modules\scouter\scouter-commons" />
+          <option name="myCopyRoot" value="C:\Users\Erez.Guy\Desktop\Option1\trunk\software\modules\scouter\scouter-commons" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="C:\Users\Erez.Guy\Desktop\Option1\trunk\software\modules\scouter\scouter-dao" />
+          <option name="myCopyRoot" value="C:\Users\Erez.Guy\Desktop\Option1\trunk\software\modules\scouter\scouter-dao" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="C:\Users\Erez.Guy\Desktop\Option1\trunk\software\modules\scouter\scouter-logic" />
+          <option name="myCopyRoot" value="C:\Users\Erez.Guy\Desktop\Option1\trunk\software\modules\scouter\scouter-logic" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="C:\Users\Erez.Guy\Desktop\Option1\trunk\software\modules\scouter\scouter-services" />
+          <option name="myCopyRoot" value="C:\Users\Erez.Guy\Desktop\Option1\trunk\software\modules\scouter\scouter-services" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="C:\Users\Erez.Guy\Desktop\Option1\trunk\software\modules\shared" />
+          <option name="myCopyRoot" value="C:\Users\Erez.Guy\Desktop\Option1\trunk\software\modules\shared" />
+        </SvnCopyRootSimple>
+      </list>
+    </option>
+    <option name="myMoreRealMappingRoots">
+      <list>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="C:\Users\Erez.Guy\Desktop\Option1\trunk\software" />
+          <option name="myCopyRoot" value="C:\Users\Erez.Guy\Desktop\Option1\trunk\software" />
+        </SvnCopyRootSimple>
+      </list>
+    </option>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.27728286" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32593855" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.43318486" sideWeight="0.36034116" order="10" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26391983" sideWeight="0.48614073" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2594655" sideWeight="0.49093816" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17910448" sideWeight="0.623608" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.29175946" sideWeight="0.48932764" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20651014" sideWeight="0.18262807" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.43318486" sideWeight="0.63965887" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32739422" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/modules/backoffice/web/error.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/backoffice/web/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/build/environment-tasks/BuildAndDeployAll.bat">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/build/gradle/server/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.5172415">
+          <caret line="267" column="54" selection-start-line="267" selection-start-column="54" selection-end-line="267" selection-end-column="54" />
+          <folding>
+            <element signature="e#0#21#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/build/gradle/server/gradle.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/build/gradle/server/prod-system-configuration.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/build/gradle/server/settings.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/build/gradle/server/test-system-configuration.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/build/gradle/server/test-system-configuration linux.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/build/openejb/conf/groups.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/build/openejb/conf/logging.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/build/openejb/conf/login.config">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/build/openejb/conf/openejb.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/build/openejb/conf/README.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/build/openejb/conf/system.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/build/openejb/conf/users.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/backoffice/web/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7616488">
+          <caret line="25" column="15" selection-start-line="25" selection-start-column="15" selection-end-line="25" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/scouter/scouter-services/web/WEB-INF/urlrewrite.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/scouter/scouter-logic/src/META-INF/beans.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/scouter/scouter-services/web/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.551724">
+          <caret line="18" column="25" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/scouter/scouter-services/src/com/scouter/services/RestProtocol.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/scouter/scouter-services/src/com/scouter/services/entrypoint/impl/MessagesServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/scouter/scouter-logic/src/com/scouter/logic/MessagesLogic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/scouter/scouter-dao/src/META-INF/beans.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/scouter/scouter-logic/src/com/scouter/logic/MessagesLogicImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.36">
+          <caret line="2" column="5" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/scouter/scouter-dao/src/com/scouter/dao/MessagesDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="4" column="38" selection-start-line="4" selection-start-column="38" selection-end-line="4" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/scouter/scouter-commons/src/META-INF/beans.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/scouter/scouter-dao/src/com/scouter/dao/MessagesDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/scouter/scouter-logic/etc/conf/Issues.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/scouter/scouter-logic/etc/conf/Scouter.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/shared/src/META-INF/beans.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/shared/src/com/scouter/commons/vo/Messages.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/shared/src/com/scouter/commons/ConstantsShared.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/shared/src/com/scouter/commons/GenericException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/shared/src/META-INF/persistence.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="15" column="41" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/shared/src/com/scouter/commons/util/GsonProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="31" column="13" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/shared/src/com/scouter/commons/util/JvmParams.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/shared/src/com/scouter/commons/util/ScouterLogger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/shared/src/com/scouter/commons/services/ExceptionHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="15" column="96" selection-start-line="15" selection-start-column="96" selection-end-line="15" selection-end-column="96" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/shared/src/com/scouter/commons/services/ServicesContextListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/shared/src/com/scouter/commons/services/APIBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/shared/src/com/scouter/commons/util/CommonUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/scouter/scouter-services/src/com/scouter/services/entrypoint/MessagesService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/shared/src/com/scouter/commons/appVo/AppGetMessages.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/scouter/scouter-logic/test/com/scouter/logic/MessagesLogicImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.07816092">
+          <caret line="4" column="32" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

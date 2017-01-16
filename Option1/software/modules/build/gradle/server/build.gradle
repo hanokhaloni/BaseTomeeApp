@@ -1,0 +1,337 @@
+import groovy.sql.Sql
+import org.apache.tools.ant.filters.ReplaceTokens
+
+defaultTasks 'cleanup', 'prepareConfig', 'deployConfig', 'build', 'uploadArchives', 'deploy', 'jacocoTestReport'
+
+def String dMode = hasProperty('deployMode') ? deployMode : hasProperty('fallbackDeployMode') ? fallbackDeployMode : "test"
+println "Deploying '$project.name' in $dMode mode."
+
+println "Loading global configuration from: $project.rootDir/" + dMode + "-system-configuration.properties"
+def String globalProps = "$project.rootDir/" + dMode + "-system-configuration.properties"
+def gp = new Properties()
+gp.load(new FileInputStream(globalProps))
+
+def String dbServerIp = gp.getProperty('DB_SERVER')
+def String dbConnectionURL = gp.getProperty('DB_URL')
+def String dbDriverName = gp.getProperty('DB_DRIVER')
+def String dbSchema = gp.getProperty('DB_SCHEMA')
+def String dbSchemaFile = gp.getProperty('DB_SCHEMA_FILE')
+def String dbInitializationFile = gp.getProperty('DB_INITIALIZATION_FILE')
+def String dbMockDataFile = gp.getProperty('DB_MOCK_DATA_FILE')
+def String dbUserName = gp.getProperty('DB_USER')
+def String dbPassword = gp.getProperty('DB_PASS')
+
+def cp = fileTree(dir: '../../../../lib', include: '**/*.jar')
+
+File openEjbHome = new File(System.properties.getProperty('ejbhome'))
+boolean openEjbHomeValid = openEjbHome.exists();
+println("OpenEJB home is: " + openEjbHome.getAbsolutePath() + " and valid: " + openEjbHomeValid)
+if (!openEjbHomeValid) {
+    throw new IllegalArgumentException("OpenEJB home is not valid", null)
+}
+
+File deploymentConfDir = new File(configurationDeploymentDir)
+boolean deploymentConfDirValid = deploymentConfDir.exists();
+println("deploymentConfDir is: " + deploymentConfDir.getAbsolutePath() + " and valid: " + deploymentConfDirValid)
+def String deploymentConfPath = deploymentConfDir.getAbsolutePath()
+
+
+subprojects {
+
+    def String confDir = "$project.projectDir/etc/conf"
+    def String buildDir = "$project.projectDir/build"
+    def String buildConfDir = "$buildDir/config"
+    def deploymentBaseDir = warDeploymentDir
+
+    apply plugin: 'jacoco'
+    // apply plugin: 'pmd'
+    apply plugin: 'java'
+
+    tasks.withType(JavaCompile) { options.encoding = "UTF-8" }
+
+    sourceCompatibility = 1.7
+    targetCompatibility = 1.7
+
+    version = '1.0'
+
+    repositories {
+        mavenCentral()
+        flatDir name: 'localArtifacts', dirs: artifactsDir
+    }
+
+    uploadArchives {
+        delete artifactsDir
+        repositories {
+            add project.repositories.localArtifacts
+        }
+
+        /*doFirst {
+            artifacts.each {File file ->
+                def String fileName = file.name
+                def parent = file.getParent()
+                def newFileName = fileName.replace('-' + version.toString(), '')
+                def newFile = new File(parent + '/' + newFileName)
+                file.renameTo(newFile)
+            }
+        }*/
+    }
+
+    sourceSets.main.java.srcDirs = ['src']
+    sourceSets.main.output.classesDir = 'build/classes'
+    sourceSets.main.resources.srcDirs = [buildConfDir]
+
+    sourceSets.test.java.srcDirs = ['test']
+    sourceSets.test.output.classesDir = 'build/test'
+    sourceSets.test.resources.srcDirs = [buildConfDir]
+
+    dependencies.compile cp
+    dependencies.testCompile cp
+
+//    pmd {
+//        ignoreFailures Boolean.parseBoolean(ignorePmdFailures)
+//
+//        ruleSets = [
+//                "basic",
+//                "braces",
+//                "naming",
+//                "clone",
+//                "codesize",
+//                "controversial",
+//                "design",
+//                "finalizers",
+//                "imports",
+//                "j2ee",
+//                "javabeans",
+//                "junit",
+//                "logging-jakarta-commons",
+//                "logging-java",
+//                "migrating",
+//                "optimizations",
+//                "strictexception",
+//                "strings",
+//                "sunsecure",
+//                "typeresolution",
+//                "unusedcode"
+//        ]
+//    }
+
+    test {
+        ignoreFailures Boolean.parseBoolean(ignoreTestFailures)
+
+        useTestNG()
+
+        doFirst {
+            File javaAgent = new File('../../../../lib/develop-time/apache-openejb-4.7.1/openejb-javaagent-4.7.1.jar')
+            boolean validJavaAgent = javaAgent.exists();
+            if (!validJavaAgent) {
+                println javaAgent.getAbsolutePath();
+                throw new IllegalArgumentException("JavaAgent location is not valid", null)
+            }
+
+            jvmArgs "-ea",
+                    "-javaagent:" + javaAgent.getAbsolutePath(),
+                    "-Dproperties.mode=DEVELOP",
+                    "-Dconf.dir=etc/conf",
+                    "-Droot.dir=..",
+                    "-Dopenejb.embedded.initialcontext.close=destroy",
+                    "-Dejb.jndi.name.scouter.module=$project.name",
+                    "-Dopenejb.home=" + openEjbHome.getAbsolutePath()
+        }
+    }
+
+    task cleanup() {
+        delete buildDir
+    }
+
+    task prepareConfig() {
+
+        println "$project: preparing project configuration."
+        /*copy {
+            from confDir
+            into buildConfDir
+            include '*.*'
+            filter(ReplaceTokens, tokens: gp)
+        }*/
+
+        copy {
+            from "src"
+            into sourceSets.main.output.classesDir
+            include 'META-INF/**'
+        }
+    }
+
+    task deployConfig(){
+        enabled = Boolean.parseBoolean(deployConfig)
+
+        println "$project deploying configuraion files"
+
+        copy {
+            from buildConfDir
+            into deploymentConfPath
+            include '*.*'
+        }
+    }
+
+    task deploy() {
+        description 'Deploys project components.'
+        enabled = Boolean.parseBoolean(projectDeploy)
+
+        doFirst {
+            if (project.plugins.hasPlugin(WarPlugin.WAR_TASK_NAME)) {
+                def String excludeBO = ''
+                println "$project deploying war"
+
+                copy {
+                    from "$buildDir/libs"
+                    into deploymentBaseDir
+                    include '*.war'
+                    exclude excludeBO
+                    rename { filename ->
+                        filename.replace '-' + version.toString(), ''
+                    }
+
+
+                }
+
+            }
+        }
+    }
+}
+
+project(':scouter') {
+    apply plugin: 'war'
+
+    dependencies.compile project(':shared'),
+            project(':scouter:scouter-commons'),
+            project(':scouter:scouter-dao'),
+            project(':scouter:scouter-logic'),
+            project(':scouter:scouter-services')
+    dependencies.testCompile project(':shared'),
+            project(':shared').sourceSets.test.output,
+            project(':scouter:scouter-commons'),
+            project(':scouter:scouter-commons').sourceSets.test.output,
+            project(':scouter:scouter-dao'),
+            project(':scouter:scouter-dao').sourceSets.test.output,
+            project(':scouter:scouter-logic'),
+            project(':scouter:scouter-logic').sourceSets.test.output,
+            project(':scouter:scouter-services'),
+            project(':scouter:scouter-services').sourceSets.test.output
+
+    war {
+        from 'scouter-services/web'
+        classpath = war.classpath.minus(
+                fileTree(dir: '../../lib/develop-time', include: '**/*.jar') + fileTree(dir: '../../lib/testing', include: '**/*.jar')
+        )
+    }
+}
+
+
+project(':scouter:scouter-commons') {
+    dependencies.compile project(':shared')
+    dependencies.testCompile project(':shared'),
+            project(':shared').sourceSets.test.output
+}
+
+
+project(':scouter:scouter-services') {
+    dependencies.compile project(':shared'),
+            project(':scouter:scouter-commons'),
+            project(':scouter:scouter-logic')
+    dependencies.testCompile project(':shared'),
+            project(':shared').sourceSets.test.output,
+            project(':scouter:scouter-commons'),
+            project(':scouter:scouter-commons').sourceSets.test.output,
+            project(':scouter:scouter-logic'),
+            project(':scouter:scouter-logic').sourceSets.test.output
+}
+
+
+
+project(':scouter:scouter-logic') {
+
+    dependencies.compile project(':shared'),
+            project(':scouter:scouter-commons'),
+            project(':scouter:scouter-dao')
+    dependencies.testCompile project(':shared'),
+            project(':shared').sourceSets.test.output,
+            project(':scouter:scouter-commons'),
+            project(':scouter:scouter-commons').sourceSets.test.output,
+            project(':scouter:scouter-dao'),
+            project(':scouter:scouter-dao').sourceSets.test.output
+}
+
+project(':scouter:scouter-dao') {
+
+    dependencies.compile project(':shared'),
+            project(':scouter:scouter-commons')
+    dependencies.testCompile project(':shared'),
+            project(':shared').sourceSets.test.output,
+            project(':scouter:scouter-commons'),
+            project(':scouter:scouter-commons').sourceSets.test.output
+}
+
+
+project(':backoffice') {
+    apply plugin: 'war'
+
+    war {
+        from 'web'
+        classpath = war.classpath.minus(
+            fileTree(dir: '../../lib', include: '**/*.jar')
+        )
+    }
+}
+
+project(':shared') {
+
+    if (project.hasProperty('doResetDatabaseFromScripts')) {
+        println("Creating scouter database from " + dbSchemaFile as String)
+        gradle.class.classLoader.addURL(new File('../../../../lib/server/mysql/mysql-connector-java-5.1.39-bin.jar').toURI().toURL())
+
+        def props = [user: dbUserName, password: dbPassword, allowMultiQueries: 'true'] as Properties
+        def Sql sql = Sql.newInstance(dbConnectionURL, props, dbDriverName)
+
+        String sqlString = new File(dbSchemaFile as String).text
+        sql.execute(sqlString)
+
+        println("Adding initialization data from "+ dbInitializationFile as String);
+        String dbInitializationQueries = new File(dbInitializationFile).text;
+        sql.execute(dbInitializationQueries)
+
+        /*println("Adding mock data from" + dbMockDataFile as String)
+        String sqlMockDataString = new File(dbMockDataFile as String).text
+        String[] sqls = sqlMockDataString.split(/GO\r\n/)
+        for (sqlToExe in sqls){
+            sql.execute(sqlToExe)
+        }*/
+
+        sql.close()
+    }
+
+    if (project.hasProperty('doReverseMapping')) {
+        project.delete('generated')
+
+        Map<String, String> scouterHashMap = new HashMap<String, String>()
+        scouterHashMap.put('openjpa.ConnectionDriverName', 'com.mysql.jdbc.Driver')
+        scouterHashMap.put('openjpa.ConnectionURL', 'jdbc:mysql://localhost:3306/scouterdb')
+        scouterHashMap.put('openjpa.ConnectionUserName', dbUserName)
+        scouterHashMap.put('openjpa.ConnectionPassword', dbPassword)
+
+        List<String> rmtArgs = new ArrayList<String>()
+        rmtArgs.add('-pkg')
+        rmtArgs.add('com.scouter.commons.vo')
+        rmtArgs.add('-d')
+        rmtArgs.add('generated')
+        rmtArgs.add('-ann')
+        rmtArgs.add('t')
+        rmtArgs.add('-md')
+        rmtArgs.add('none')
+
+        javaexec {
+            main = 'org.apache.openjpa.jdbc.meta.ReverseMappingTool'
+            classpath = files('src', sourceSets.main.compileClasspath)
+            systemProperties = scouterHashMap
+            args = rmtArgs
+        }
+    }
+}

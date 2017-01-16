@@ -1,0 +1,13 @@
+rootProject.name = 'scouter'
+
+include 'shared',
+        'scouter', 'scouter:scouter-commons', 'scouter:scouter-dao', 'scouter:scouter-logic', 'scouter:scouter-services', 'backoffice'
+File projectRootDir = new File(settingsDir, "../../../")
+
+project(':shared').projectDir = new File(projectRootDir, "shared")
+project(':scouter').projectDir = new File(projectRootDir, "scouter")
+project(':scouter:scouter-commons').projectDir = new File(projectRootDir, "scouter/scouter-commons")
+project(':scouter:scouter-dao').projectDir = new File(projectRootDir, "scouter/scouter-dao")
+project(':scouter:scouter-logic').projectDir = new File(projectRootDir, "scouter/scouter-logic")
+project(':scouter:scouter-services').projectDir = new File(projectRootDir, "scouter/scouter-services")
+project(':backoffice').projectDir = new File(projectRootDir, "backoffice")

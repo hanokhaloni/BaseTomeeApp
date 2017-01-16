@@ -1,0 +1,10 @@
+apply plugin: 'java'
+
+if (project.hasProperty('doResetDatabaseFromScripts')) {
+    println("Creating scouter database from " + dbSchemaFile as String)
+    MySqlManager.createSchema()
+}
+
+if (project.hasProperty('doReverseMapping')) {
+    MySqlManager.RunReverseMappingTool(main, classpath, systemProperties, args)
+}

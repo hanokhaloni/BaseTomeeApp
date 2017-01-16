@@ -1,0 +1,33 @@
+<?xml version = "1.0" encoding="UTF-8"?>
+<openejb>
+
+  <Container id="My Singleton Container" type="SINGLETON">
+    AccessTimeout = 30 seconds
+  </Container>
+
+  <Container id="My Stateful Container" type="STATEFUL">
+    AccessTimeout = 30 seconds
+    Passivator org.apache.openejb.core.stateful.SimplePassivater
+    TimeOut 20
+    Frequency 60
+    Capacity 1000
+    BulkPassivate 100
+  </Container>
+
+  <Container id="My Stateless Container" type="STATELESS">
+    AccessTimeout = 30 seconds
+    MaxSize = 10
+    MinSize = 0
+    StrictPooling = true
+    MaxAge = 0 hours
+    IdleTimeout = 0 minutes
+  </Container>
+
+  <Resource id="scouterDataSource" type="DataSource">
+    JdbcDriver org.hsqldb.jdbcDriver
+    JdbcUrl jdbc:hsqldb:file:hsqldb
+    UserName sa
+    Password
+  </Resource>
+
+</openejb>

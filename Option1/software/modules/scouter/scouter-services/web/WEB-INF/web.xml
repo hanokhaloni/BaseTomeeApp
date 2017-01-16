@@ -41,24 +41,24 @@
     </servlet-mapping>
 
 
-	<login-config>
-        <auth-method>BASIC</auth-method>
-        <!--<realm-name></realm-name>-->
-    </login-config>
-	
-    <security-constraint>
-        <web-resource-collection>
-            <web-resource-name>Entire Application</web-resource-name>
-            <url-pattern>/*</url-pattern>
-        </web-resource-collection>
-        <auth-constraint>
-            <role-name>*</role-name>
-        </auth-constraint>
-    </security-constraint>
-	
-    <security-role>
-        <role-name>*</role-name>
-    </security-role>
+	<!--<login-config>-->
+        <!--<auth-method>BASIC</auth-method>-->
+        <!--&lt;!&ndash;<realm-name></realm-name>&ndash;&gt;-->
+    <!--</login-config>-->
+	<!---->
+    <!--<security-constraint>-->
+        <!--<web-resource-collection>-->
+            <!--<web-resource-name>Entire Application</web-resource-name>-->
+            <!--<url-pattern>/*</url-pattern>-->
+        <!--</web-resource-collection>-->
+        <!--<auth-constraint>-->
+            <!--<role-name>*</role-name>-->
+        <!--</auth-constraint>-->
+    <!--</security-constraint>-->
+	<!---->
+    <!--<security-role>-->
+        <!--<role-name>*</role-name>-->
+    <!--</security-role>-->
 
     <session-config>
         <session-timeout>120</session-timeout>

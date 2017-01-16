@@ -40,6 +40,6 @@ public class ExceptionHandler implements ExceptionMapper<EJBException> {
             }
         }
 
-        return Response.serverError().entity(cause.getMessage() + " CODE:" + errorCode).status(httpStatus).build();
+        return Response.serverError().entity("Error, see log file for more information, " + " CODE:" + errorCode).status(httpStatus).build();
     }
 }

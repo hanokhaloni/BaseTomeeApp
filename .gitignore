@@ -96,3 +96,5 @@ artifacts
 logs
 hsqldb
 ivy.xml
+classes
+webapps

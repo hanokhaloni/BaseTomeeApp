@@ -14,6 +14,7 @@
 - [ ] application server skeleton
 	- [ ] hardened/more secure - TBD
 	- [ ] logs - as external logs @ TTFCC format.
+	- [ ] logs - change log level in realtime
 	- [ ] configuration
 	- [ ] shared libs
 	- [ ] login
@@ -25,3 +26,12 @@
 	- [ ] gradle version or maven?
 	- [ ] compile time should be minimal
 	- [ ] Should also handle GULP or GRUNT (or even webpack) commands
+	
+	
+
+__________________________________________________________________________________
+
+*NOTES:*
+
+logs - change log level in realtime - http://stackoverflow.com/questions/15141249/reload-tomcat-logging-at-runtime	
+	

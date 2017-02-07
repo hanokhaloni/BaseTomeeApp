@@ -34,4 +34,4 @@ ________________________________________________________________________________
 *NOTES:*
 
 logs - change log level in realtime - http://stackoverflow.com/questions/15141249/reload-tomcat-logging-at-runtime	
-	
+logs rotation - http://www.tomcatexpert.com/knowledge-base/how-configure-log-rotation-tomcat-55-and-60-using-juli-logging-package
